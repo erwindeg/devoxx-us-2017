@@ -13,3 +13,4 @@ Modular development with JDK 9
 What are observables and why should I care  
 Personality is the new ringtone: Experiments in AI design” door Brian Kane  
 The Business of Technology Business Technology chet haasse  
+Develop faster with an open source microservices platform by James Strachan
