@@ -27,6 +27,19 @@
 <body>
 	<div class="reveal">
 		<div class="slides">
+			<section data-background="pizza-beer.jpg">
+				<h2>Agenda</h2>
+				<ul>
+					<li>Devoxx US</li>
+					<li>Graduation projects</li>
+					<li>Beer</li>
+					<li>Pizza</li>
+				</ul>
+				<aside class="notes">
+					4 onderwerpen. Onze beste sessies van Devoxx laten zien, zodat je zelf thuis je eigen devoxx kunt herbeleven.
+					Veel afstudeerders, die allemaal met interessante onderwerpen bezig zijn, zoals functioneel programmeren, devops, microservices en testautomatisering.
+				</aside>
+			</section>
 			<section data-background="devoxx.jpg">
 				<h2>Your private little</h2>
 			</section>
@@ -65,12 +78,42 @@
 				<h3>10:00 Java 9 Modules</h3>
 				<div style="position:relative;height:0;padding-bottom:56.21%"><iframe src="https://www.youtube.com/embed/TEoexFsDP6A?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" allowfullscreen></iframe></div>
 				<aside class="notes">
-				//TODO: uitleggen waarom je naar java 9 modules moet migreren en hoe
+				This presentation is by the author of the O'Reilly book "Java 9 modularity". When we are going to use Java 9, there is a big chance that our current apps don't work anymore, because o (a)busing platform internals which are now hidden. Or unresolved platform modules, like the non SE modules.
+				</aside>
+			</section>
+			<section>
+				<h3>11:00 The seven more deadly sins of microservices</h3>
+				<div style="position:relative;height:0;padding-bottom:56.21%"><iframe src="https://www.youtube.com/embed/Jw6TYEb1Opw?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" allowfullscreen></iframe></div>
+				<aside class="notes">
+						Anti patterns for micro services. 
+						Updated version with lessons learned.
 				</aside>
 			</section>
 			<section>
 				<h3>11:00 The seven deadly sins of microservices</h3>
-				<div style="position:relative;height:0;padding-bottom:56.21%"><iframe src="https://www.youtube.com/embed/Jw6TYEb1Opw?ecver=2" style="position:absolute;width:100%;height:100%;left:0" width="641" height="360" frameborder="0" allowfullscreen></iframe></div>
+				<ol>
+					<li>Lust  - Using the (unevaluated) latest technology</li>
+					<li>Gluttony - Communication lock-in </li>
+					<li>Greed - What's mine is mine (within the organization)</li>
+					<li>Sloth - Getting lazy with NFRS</li>
+					<li>Wrath - Blowing up when bad things happen</li>
+					<li>Envy - The shared single domain (and data store) fallacy</li>
+					<li>Pride - Testing in the world of transience</li>
+				</ol>
+				<aside class="notes">
+					Will not discuss them all. The good thing is that it is down to earth. For instance the first one, is about evaluating what your goals are for microservices, with the correct architectural model and DevOps process in place. And also evaluating the technology,
+					for instance with the help of the Spine model.  Take for instance the decision about containers, to docker or not to docker.
+				</aside>
+			</section>
+			<section data-background="monolith.png">
+			</section>
+			<section data-background="fire.png">
+			<aside class="notes">
+			 If your application looks like a giant tire fire, and you try to split it up and put it in a container, you just get a fire in a container.
+			</section>
+			<section data-background="books.png">
+			<aside class="notes">
+			 Ook praktische tips en tools. End the presentation with some great books to read.
 			</section>
 			<section data-background="panini.jpg">
 				<h3>12:00 Lunch</h3>
